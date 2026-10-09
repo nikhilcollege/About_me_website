@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="My personal website, projects, skills, and interests.">
+
+    <title>My Portfolio | About Me</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-symbol">&lt;</span>
+                YourName
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+
+                <li><a href="#home" class="nav-link active">Home</a></li>
+
+                <li><a href="#about" class="nav-link">About</a></li>
+
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+
+            </ul>
+
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Switch to light theme"
+                title="Change theme"
+            >
+                ☀
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        Available for learning and collaboration
+                    </div>
+
+                    <p class="hero-greeting">HELLO, WORLD! I'M</p>
+
+                    <h1>
+                        Your Name<span class="accent">.</span>
+                    </h1>
+
+                    <h2>
+                        I'm a <span id="typing-text">Student</span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm passionate about technology, programming,
+                        and exploring how things work. Currently learning,
+                        building projects, and turning ideas into reality.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="#about" class="btn btn-secondary">
+                            More About Me
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            GitHub ↗
+                        </a>
+
+                        <a href="https://www.linkedin.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            LinkedIn ↗
+                        </a>
+
+                        <a href="mailto:you@example.com">
+                            Email ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Profile Card -->
+
+                <div class="hero-visual">
+
+                    <div class="profile-glow"></div>
+
+                    <div class="profile-card">
+
+                        <div class="card-top">
+
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span class="card-label">WHOAMI</span>
+
+                        </div>
+
+                        <div class="profile-avatar">
+                            <span>YN</span>
+                        </div>
+
+                        <h3>Your Name</h3>
+
+                        <p class="profile-role">
+                            Student · Aspiring Developer
+                        </p>
+
+                        <div class="profile-divider"></div>
+
+                        <div class="profile-info">
+
+                            <div>
+                                <span class="info-icon">⌘</span>
+                                <span>Learning to code</span>
+                            </div>
+
+                            <div>
+                                <span class="info-icon">⌖</span>
+                                <span>Your City, India</span>
+                            </div>
+
+                            <div>
+                                <span class="info-icon">✦</span>
+                                <span>Always curious</span>
+                            </div>
+
+                        </div>
+
+                        <div class="profile-footer">
+                            <span class="footer-dot"></span>
+                            Currently building my future
+                        </div>
+
+                    </div>
+
+                    <div class="floating-tag tag-top">
+                        &lt;code /&gt;
+                    </div>
+
+                    <div class="floating-tag tag-bottom">
+                        Keep Learning ✦
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">01 / ABOUT ME</span>
+
+                    <h2>
+                        A little about <span class="accent">myself.</span>
+                    </h2>
+
+                    <p>
+                        The person behind the screen, the curiosity,
+                        and the code.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-main card">
+
+                        <span class="about-icon">✦</span>
+
+                        <h3>Curious by nature.</h3>
+
+                        <p>
+                            Hi! I'm Your Name. I'm someone who enjoys
+                            learning new things, solving problems, and
+                            understanding the technology around me.
+                        </p>
+
+                        <p>
+                            My journey into programming is about more than
+                            writing code. It's about building useful things,
+                            experimenting with ideas, and improving a little
+                            every day.
+                        </p>
+
+                        <p>
+                            I'm currently exploring web development and
+                            working toward becoming a better developer,
+                            one project at a time.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-side">
+
+                        <div class="card interest-card">
+
+                            <span class="card-icon">💻</span>
+
+                            <h3>Technology</h3>
+
+                            <p>
+                                Exploring programming, computers,
+                                and the digital world.
+                            </p>
+
+                        </div>
+
+                        <div class="card interest-card">
+
+                            <span class="card-icon">🧠</span>
+
+                            <h3>Learning</h3>
+
+                            <p>
+                                Developing new skills and understanding
+                                how things work.
+                            </p>
+
+                        </div>
+
+                        <div class="card interest-card">
+
+                            <span class="card-icon">🚀</span>
+
+                            <h3>Building</h3>
+
+                            <p>
+                                Turning ideas into small projects
+                                and practical experiences.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS SECTION ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">02 / MY SKILLS</span>
+
+                    <h2>
+                        Things I'm <span class="accent">learning.</span>
+                    </h2>
+
+                    <p>
+                        A growing toolkit of technologies and skills.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card card">
+
+                        <div class="skill-top">
+                            <span class="skill-symbol html-symbol">5</span>
+                            <span class="skill-category">FRONTEND</span>
+                        </div>
+
+                        <h3>HTML</h3>
+
+                        <p>
+                            Building the structure and content of websites.
+                        </p>
+
+                        <div class="skill-track">
+                            <span style="width: 65%"></span>
+                        </div>
+
+                        <span class="skill-status">Currently learning</span>
+
+                    </div>
+
+
+                    <div class="skill-card card">
+
+                        <div class="skill-top">
+                            <span class="skill-symbol css-symbol">#</span>
+                            <span class="skill-category">FRONTEND</span>
+                        </div>
+
+                        <h3>CSS</h3>
+
+                        <p>
+                            Styling pages, layouts, animations, and designs.
+                        </p>
+
+                        <div class="skill-track">
+                            <span style="width: 45%"></span>
+                        </div>
+
+                        <span class="skill-status">Currently learning</span>
+
+                    </div>
+
+
+                    <div class="skill-card card">
+
+                        <div class="skill-top">
+                            <span class="skill-symbol js-symbol">JS</span>
+                            <span class="skill-category">PROGRAMMING</span>
+                        </div>
+
+                        <h3>JavaScript</h3>
+
+                        <p>
+                            Adding interactivity and dynamic behavior
+                            to websites.
+                        </p>
+
+                        <div class="skill-track">
+                            <span style="width: 25%"></span>
+                        </div>
+
+                        <span class="skill-status">Getting started</span>
+
+                    </div>
+
+
+                    <div class="skill-card card">
+
+                        <div class="skill-top">
+                            <span class="skill-symbol terminal-symbol">&gt;_</span>
+                            <span class="skill-category">DEVELOPMENT</span>
+                        </div>
+
+                        <h3>Problem Solving</h3>
+
+                        <p>
+                            Breaking problems into smaller,
+                            understandable steps.
+                        </p>
+
+                        <div class="skill-track">
+                            <span style="width: 40%"></span>
+                        </div>
+
+                        <span class="skill-status">Improving daily</span>
+
+                    </div>
+
+                </div>
+
+                <p class="skills-note">
+                    Skill indicators are illustrative. Update them
+                    to reflect your actual experience.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS SECTION ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">03 / MY PROJECTS</span>
+
+                    <h2>
+                        Things I've <span class="accent">built.</span>
+                    </h2>
+
+                    <p>
+                        Small beginnings. Bigger ideas ahead.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- Project 1 -->
+
+                    <article class="project-card card">
+
+                        <div class="project-preview preview-one">
+
+                            <div class="preview-window">
+
+                                <div class="preview-header">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="preview-content">
+                                    <div class="preview-line long"></div>
+                                    <div class="preview-line medium"></div>
+                                    <div class="preview-button"></div>
+                                </div>
+
+                            </div>
+
+                            <span class="project-number">PROJECT 01</span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-type">WEB DEVELOPMENT</span>
+
+                            <h3>Personal Portfolio</h3>
+
+                            <p>
+                                A personal website introducing who I am,
+                                what I'm learning, and the projects
+                                I'm working on.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                View project details <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article class="project-card card">
+
+                        <div class="project-preview preview-two">
+
+                            <div class="calculator">
+
+                                <div class="calculator-screen">123 + 456</div>
+
+                                <div class="calculator-buttons">
+                                    <span>7</span>
+                                    <span>8</span>
+                                    <span>9</span>
+                                    <span>÷</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                    <span>6</span>
+                                    <span>×</span>
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>−</span>
+                                </div>
+
+                            </div>
+
+                            <span class="project-number">PROJECT 02</span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-type">JAVASCRIPT</span>
+
+                            <h3>Smart Calculator</h3>
+
+                            <p>
+                                A beginner-friendly calculator that
+                                performs arithmetic operations
+                                with an interactive interface.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                View project details <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article class="project-card card">
+
+                        <div class="project-preview preview-three">
+
+                            <div class="todo-preview">
+
+                                <div class="todo-title">
+                                    My Tasks <span>✦</span>
+                                </div>
+
+                                <div class="todo-item">
+                                    <span class="todo-check">✓</span>
+                                    Learn HTML
+                                </div>
+
+                                <div class="todo-item">
+                                    <span class="todo-check"></span>
+                                    Practice CSS
+                                </div>
+
+                                <div class="todo-item">
+                                    <span class="todo-check"></span>
+                                    Build something
+                                </div>
+
+                            </div>
+
+                            <span class="project-number">PROJECT 03</span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-type">PRODUCTIVITY</span>
+
+                            <h3>Daily Task Manager</h3>
+
+                            <p>
+                                A simple productivity application for
+                                organizing tasks and keeping track
+                                of daily goals.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                View project details <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <span class="section-label">04 / GET IN TOUCH</span>
+
+                    <h2>
+                        Have an idea?<br>
+                        <span class="accent">Let's connect.</span>
+                    </h2>
+
+                    <p>
+                        I'm always interested in learning, discussing
+                        technology, and connecting with people who enjoy
+                        building things.
+                    </p>
+
+                    <a href="mailto:you@example.com"
+                       class="btn btn-primary contact-button">
+                        Send Me an Email <span>↗</span>
+                    </a>
+
+                    <div class="contact-divider"></div>
+
+                    <p class="contact-small">
+                        You can also find me on
+                    </p>
+
+                    <div class="contact-socials">
+
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+
+                        <a href="https://www.linkedin.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            LinkedIn ↗
+                        </a>
+
+                        <a href="mailto:you@example.com">
+                            Email ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-symbol">&lt;</span>
+                YourName
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <p>
+                Designed and built with curiosity.
+            </p>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Your Name.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back to top button -->
+
+    <button
+        id="back-to-top"
+        class="back-to-top"
+        aria-label="Back to top"
+        title="Back to top"
+    >
+        ↑
+    </button>
+
+</body>
+</html>
